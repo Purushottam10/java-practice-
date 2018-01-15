@@ -16,11 +16,11 @@ public class ReverseString {
 		else System.out.println("not a valid string");
 		break;
 		}
-		if(count==gda.str.length()) {
+		if(count>1) {
 			for(int i=gda.n-1;i>=0;i--) {
 			System.out.print(gda.ary[i]);
 		}
 			
-	}else System.out.println("not a valid string");
+	}
 }
 }
